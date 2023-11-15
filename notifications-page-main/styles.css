@@ -1,0 +1,107 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+}
+.container {
+  width: 1250px;
+  height: 1000px;
+  background-color: hsl(0, 0%, 100%);
+}
+header {
+  background-color: white;
+  width: auto;
+  height: fit-content;
+}
+.notification-box {
+  display: flex;
+}
+h2 {
+  font-weight: 900;
+  display: flex;
+  margin-left: 240px;
+}
+button {
+  width: 45px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: rgba(0, 0, 255, 0.712);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.mark-all {
+  position: relative;
+  bottom: 50px;
+  text-align: end;
+  color: hsl(219, 14%, 63%);
+  font-weight: 200;
+  padding: 10px;
+}
+
+.notif-card-unread {
+  background-color: hsl(210, 60%, 98%);
+  display: flex;
+  width: 70%;
+  margin-left: 250px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.description {
+  line-height: 10px;
+}
+.user-activity {
+  margin-top: 30px;
+  margin-left: 15px;
+  color: hsl(219, 12%, 42%);
+}
+strong {
+  color: hsl(224, 21%, 14%);
+  font-weight: 900;
+}
+b {
+  color: hsl(219, 12%, 42%);
+  font-weight: 700;
+}
+.minutes {
+  margin-left: 20px;
+  color: hsl(219, 14%, 63%);
+}
+img {
+  width: 65px;
+  height: 65px;
+  align-self: center;
+}
+.the-paragraph {
+  display: flex;
+  margin-left: 280px;
+  border: 1px solid rgba(128, 128, 128, 0.233);
+  width: 50%;
+  height: 75px;
+  padding: 15px;
+  color: hsl(219, 12%, 42%);
+}
+.chess-image {
+  display: flex;
+  margin-left: 360px;
+}
+.chess-club {
+  color: hsl(224, 21%, 14%);
+  font-weight: 800;
+}
+
+@media screen (min-width: 768px) {
+  .container {
+  }
+
+  .notification-box {
+    font-size: 16px;
+  }
+  .notif-card-unread {
+    margin-right: 50px;
+  }
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
